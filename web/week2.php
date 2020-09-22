@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Week 2 Assignment</title>
+</head>
 <body>
 
 <?php
