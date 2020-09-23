@@ -24,7 +24,7 @@ h1 {
 
 .column {
   float: left;
-  width: 24.99%;
+  width: 24%;
   padding: 10px;
   height: 300px;
   text-align: center;
