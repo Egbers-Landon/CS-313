@@ -24,7 +24,7 @@ h1 {
 
 .column {
   float: left;
-  width: 25%;
+  width: 24.99%;
   padding: 10px;
   height: 300px;
   text-align: center;
@@ -49,19 +49,19 @@ h1 {
 
 <div class="row">
   <div class="column">
-    <h2>Family</h2>
+    <h1>Family</h2>
     <p>Some text..</p>
   </div>
   <div class="column">
-    <h2>Occupation</h2>
+    <h1>Occupation</h2>
     <p>Some text..</p>
   </div>
   <div class="column">
-    <h2>Recreation</h2>
+    <h1>Recreation</h2>
     <p>Some text..</p>
   </div>
   <div class="column">
-    <h2>Dreams</h2>
+    <h1>Dreams</h2>
     <p>Some text..</p>
   </div>
 </div>
