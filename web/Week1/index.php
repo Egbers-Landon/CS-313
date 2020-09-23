@@ -42,6 +42,7 @@ h1 {
 
 #one:hover #family {
   display: block;
+  transition: 2s;
 }
 
 #one:hover #fam {
