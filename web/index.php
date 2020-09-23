@@ -58,10 +58,10 @@ h1 {
 <div class="row">
   <div class="column">
     <h1>Family</h1>
-      <div class="hide">
-        <p>sup</p>
-      </div>
   </div>
+    <div class="hide">
+      <p>sup</p>
+    </div>
   <div class="column">
     <h1>Occupation</h1>
   </div>
