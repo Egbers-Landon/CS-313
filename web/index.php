@@ -30,6 +30,8 @@ h1 {
   text-align: center;
 }
 
+.column:hover {opacity: 0}
+
 .row:after {
   content: "";
   display: table;
