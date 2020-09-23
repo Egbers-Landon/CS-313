@@ -16,6 +16,7 @@ p {
 
 h1 {
   color: white;
+  text-align: center;
 }
 
 </style>
@@ -23,7 +24,7 @@ h1 {
 
 <body>
 
-<h1>Welcome to my Website!</h1>
+<h1>WELCOME TO MY WEBSITE!</h1>
 
 <?php
 echo "HelloWorld";
