@@ -1,5 +1,13 @@
-<h1>
+<!DOCTYPE html>
+<html>
+<head>
+<title>personal homepage</title>
+</head>
+
+<body>
+
 <?php
 echo "HelloWorld";
 ?>
-<h1>
+</body>
+</html>
