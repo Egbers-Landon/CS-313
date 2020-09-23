@@ -22,6 +22,7 @@ p {
 <?php
 echo "HelloWorld";
 ?>
+<p>Hello World!</p>
 
 
 </body>
