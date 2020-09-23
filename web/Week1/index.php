@@ -44,6 +44,10 @@ h1 {
   display: block;
 }
 
+#one:hover #fam {
+  opacity: .8;
+}
+
 </style>
 </head>
 
@@ -57,7 +61,7 @@ h1 {
 
 <div class="row">
   <div class="column" id="one";>
-    <h1>Family</h1>
+    <h1 id="fam">Family</h1>
     <p class="hidden" id="family">I have a sister and 2 brothers.</p>
   </div>
   <div class="column">
