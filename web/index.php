@@ -17,16 +17,12 @@ p {
   margin: 70px;
 }
 
-.hide {
-  display: none;
-}
-
 h1 {
   color: white;
   text-align: center;
 }
 
-.column:hover + .hide {
+.column {
   float: left;
   width: 23%;
   padding: 10px;
