@@ -22,6 +22,20 @@ h1 {
   text-align: center;
 }
 
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 </style>
 </head>
 
@@ -33,6 +47,24 @@ h1 {
 ?>
 <p>My name is Landon Egbers and my favorite way of getting to know people is through a method known as "The FORD method".  FORD is an acronym for Family, Occupation, Recreation, and Dreams.  This website contains those four labels below.  Mousing over each section will reveal a little bit more about who I am.</p>
 
+<div class="row">
+  <div class="column">
+    <h2>Family</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column">
+    <h2>Occupation</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column">
+    <h2>Recreation</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column">
+    <h2>Dreams</h2>
+    <p>Some text..</p>
+  </div>
+</div>
 
 </body>
 </html>
