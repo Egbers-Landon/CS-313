@@ -17,24 +17,18 @@ p {
   margin: 70px;
 }
 
-.hide {
-  display: none;
-}
-
 h1 {
   color: white;
   text-align: center;
 }
 
-.column:hover + .hide {
+.column {
   float: left;
   width: 23%;
   padding: 10px;
   height: 300px;
   text-align: center;
 }
-
-
 
 .row:after {
   content: "";
@@ -59,9 +53,6 @@ h1 {
   <div class="column">
     <h1>Family</h1>
   </div>
-    <div class="hide">
-      <p>sup</p>
-    </div>
   <div class="column">
     <h1>Occupation</h1>
   </div>
