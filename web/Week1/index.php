@@ -17,6 +17,10 @@ p {
   margin: 70px;
 }
 
+.hidden {
+  display: none;
+}
+
 h1 {
   color: white;
   text-align: center;
@@ -36,7 +40,9 @@ h1 {
   clear: both;
 }
 
-
+#one:hover #family {
+  display: block;
+}
 
 </style>
 </head>
@@ -50,8 +56,9 @@ h1 {
 <p>My name is Landon Egbers and my favorite way of getting to know people is through a method known as "The FORD method".  FORD is an acronym for Family, Occupation, Recreation, and Dreams.  This website contains those four labels below.  Mousing over each section will reveal a little bit more about who I am.</p>
 
 <div class="row">
-  <div class="column">
+  <div class="column" id="one";>
     <h1>Family</h1>
+    <p class="hidden" id="family">I have a sister and 2 brothers.</p>
   </div>
   <div class="column">
     <h1>Occupation</h1>
