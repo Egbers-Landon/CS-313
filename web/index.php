@@ -17,12 +17,16 @@ p {
   margin: 70px;
 }
 
+.hide {
+  display: none;
+}
+
 h1 {
   color: white;
   text-align: center;
 }
 
-.column {
+.column:hover + .hide {
   float: left;
   width: 23%;
   padding: 10px;
@@ -30,7 +34,7 @@ h1 {
   text-align: center;
 }
 
-.column:hover {opacity: 0}
+
 
 .row:after {
   content: "";
@@ -53,20 +57,19 @@ h1 {
 
 <div class="row">
   <div class="column">
-    <h1>Family</h2>
-    <p>Some text..</p>
+    <h1>Family</h1>
+      <div class="hide">
+        <p>sup</p>
+      </div>
   </div>
   <div class="column">
-    <h1>Occupation</h2>
-    <p>Some text..</p>
+    <h1>Occupation</h1>
   </div>
   <div class="column">
-    <h1>Recreation</h2>
-    <p>Some text..</p>
+    <h1>Recreation</h1>
   </div>
   <div class="column">
-    <h1>Dreams</h2>
-    <p>Some text..</p>
+    <h1>Dreams</h1>
   </div>
 </div>
 
