@@ -9,6 +9,11 @@ body {
   background-attachment: fixed;  
   background-size: cover;
 }
+
+p {
+  color: white;
+}
+
 </style>
 </head>
 
