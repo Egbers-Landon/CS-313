@@ -11,7 +11,8 @@ body {
 }
 
 p {
-  color: grey;
+  color: white;
+  font-size: 30px;
   text-align: center;
   margin: 70px;
 }
