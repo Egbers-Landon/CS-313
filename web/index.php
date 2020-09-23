@@ -12,6 +12,8 @@ body {
 
 p {
   color: white;
+  text-align: center;
+  margin: 70px;
 }
 
 h1 {
@@ -28,7 +30,7 @@ h1 {
 
 <?php
 ?>
-<p>My name is Landon Egbers.  My favorite way of getting to know people is through a method known as "The FORD method".  FORD is an acronym for Family, Occupation, Recreation, and Dreams.  This website contains those four labels below.  Mousing over each section will reveal a little bit more about who I am.</p>
+<p>My name is Landon Egbers and my favorite way of getting to know people is through a method known as "The FORD method".  FORD is an acronym for Family, Occupation, Recreation, and Dreams.  This website contains those four labels below.  Mousing over each section will reveal a little bit more about who I am.</p>
 
 
 </body>
