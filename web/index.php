@@ -14,10 +14,16 @@ p {
   color: white;
 }
 
+h1 {
+  color: white;
+}
+
 </style>
 </head>
 
 <body>
+
+<h1>Welcome to my Website!</h1>
 
 <?php
 echo "HelloWorld";
