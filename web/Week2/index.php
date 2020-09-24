@@ -90,7 +90,8 @@ h1 {
 <div class="row">
   <div class="column" id="one";>
     <h1 id="fam">Family</h1>
-    <p class="hidden" id="family">I have a sister and 2 brothers.</p>
+    <p class="hidden" id="family">I have a Mother, a father, a sister and 2 brothers.
+    We grew up in Fairfax, Virginia (which explains the background).</p>
   </div>
   <div class="column" id="two";>
     <h1 id="occ">Occupation</h1>
