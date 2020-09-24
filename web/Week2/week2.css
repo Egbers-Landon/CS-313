@@ -4,14 +4,17 @@ p {
 
 #uno {
     background-color: yellow;
+    margin: 50px;
 }
 
 #dos {
     background-color: red;
+    margin: 50px;
 }
 
 #tres {
     background-color: blue;
+    margin: 50px;
 }
 
 .this {
