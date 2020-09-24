@@ -10,9 +10,8 @@
 <h1>WELCOME TO MY WEBSITE!</h1>
 
 <?php
-echo '<i style="color:white,font-size:30px;">My name is Landon Egbers and my favorite way of getting to know people is through a method known as "The FORD method".  FORD is an acronym for Family, Occupation, Recreation, and Dreams.  This website contains those four labels below.  Mousing over each section will reveal a little bit more about who I am.</i> ';
 echo '<i style="color:blue;font-size:30px;font-family:calibri ;">
-hello php color </i> ';
+My name is Landon Egbers and my favorite way of getting to know people is through a method known as "The FORD method".  FORD is an acronym for Family, Occupation, Recreation, and Dreams.  This website contains those four labels below.  Mousing over each section will reveal a little bit more about who I am. </i> ';
 ?>
 
 
