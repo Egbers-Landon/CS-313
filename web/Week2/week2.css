@@ -1,3 +1,19 @@
 p {
     color: white;
 }
+
+#uno {
+    background-color: yellow;
+}
+
+#dos {
+    background-color: red;
+}
+
+#tres {
+    background-color: blue;
+}
+
+.this {
+    background-attachment: fixed;
+}
