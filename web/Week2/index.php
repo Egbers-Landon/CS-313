@@ -95,15 +95,20 @@ h1 {
   </div>
   <div class="column" id="two";>
     <h1 id="occ">Occupation</h1>
-    <p class="hidden" id="occupation">I ain't got no job yet.</p>
+    <p class="hidden" id="occupation">I don't currently have a job, but I hope to work
+    with HTML, CSS and JavaScript in web design in the very near future.</p>
   </div>
   <div class="column" id="three";>
     <h1 id="rec">Recreation</h1>
-    <p class="hidden" id="recreation">I like to win.</p>
+    <p class="hidden" id="recreation">I have always had a hard time describing what I like to do for fun,
+    but to put it simply, I love competition.  I love any kind of card game, board game, video game, riddle
+    or anything where I can win.</p>
   </div>
   <div class="column" id="four";>
     <h1 id="dre">Dreams</h1>
-    <p class="hidden" id="dream">I wanna make a scare house.</p>
+    <p class="hidden" id="dream">If money was never an issue for me, I would want to help people who
+    struggle with addiction.  If I still had time and money, I would want to open up a scare house.
+    </p>
   </div>
 </div>
 
