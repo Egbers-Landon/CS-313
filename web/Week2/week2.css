@@ -19,4 +19,9 @@ p {
 
 .this {
     background-attachment: fixed;
+    float: left;
+    width: 31%;
+    padding: 10px;
+    height: 300px;
+    text-align: center;
 }
