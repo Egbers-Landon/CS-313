@@ -5,16 +5,28 @@ p {
 #uno {
     background-color: yellow;
     margin: 50px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
 }
 
 #dos {
     background-color: red;
     margin: 50px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
 }
 
 #tres {
     background-color: blue;
     margin: 50px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
 }
 
 .this {
