@@ -8,7 +8,6 @@
 <body>
 
 <h1>WELCOME TO MY WEBSITE!</h1>
-<img src="Rasberry.png">
 
 <?php
 echo '<i style="color:white;font-size:30px;font-family:calibri ;">
