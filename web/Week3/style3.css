@@ -13,7 +13,8 @@ h2 {
     color: lightskyblue;
 }
 
-div {
+.align {
     width: 100%;
     text-align: justify;
+    display: flex;
 }
