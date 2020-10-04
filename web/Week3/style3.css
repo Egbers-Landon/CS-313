@@ -17,3 +17,9 @@ h2 {
     justify-content: space-between;
     display: flex;
 }
+
+label {
+    width: 200px;
+    display: inline-block;
+    text-align: right;
+ }
