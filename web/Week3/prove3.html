@@ -3,11 +3,13 @@
     <head>
     <link rel="stylesheet" href="style3.css">
     <title>Bob's Store of Cake</title>
+    <script src="prove3.js"></script>
     </head>
 <body>
 <h1>WELCOME TO BOB'S STORE OF CAKE!</h1>
 <p><button style="float:right;" onclick="document.location='https://salty-lake-55999.herokuapp.com/Week3/cart.html'">View Cart</button></p>
 <h2>please select which cake(s) you would like to purchase</h2>
+<form action="cart.php" method="POST">
 <div class="align">
     <div><img src="IMG_2335.jpg"><br>
         <p>Monster Cake</p><br>
@@ -28,6 +30,7 @@
         <p>Kermit Cake</p><br>
     <p><button onclick="addToCart()">Add to Cart</button></p></div>
 </div>
+</form>
 
 <script>
     function addToCart()
