@@ -6,3 +6,9 @@ for (var i = 0; i < removeButtons; i++) {
         buttonClicked.parentElement.remove()
     })
 }
+
+var addButtons = document.getElementsByClassName('add')
+for (var i = 0; i <addButtons.length; i++) {
+    var button = addButtons[i]
+    
+}
