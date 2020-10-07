@@ -5,6 +5,8 @@ h1 {
 .start {
     background-color: lightskyblue;
     text-align: center;
-padding-top: 20px;
-padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    display: flex;
 }
