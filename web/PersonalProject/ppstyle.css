@@ -6,11 +6,13 @@ h1 {
     background-color: lightskyblue;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .menu {
     background-color: lightskyblue;
     text-align: center;
+    padding-top: 20px;
     padding-bottom: 20px;
     justify-content: space-between;
     display: flex;
