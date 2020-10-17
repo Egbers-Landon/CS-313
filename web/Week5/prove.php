@@ -6,6 +6,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -29,11 +30,37 @@
                 $address = $row['address'];
                 $city = $row['city'];
                 $age = $row['age'];
-                echo "<tr> <td> $lastname </td> </tr>";
+                echo "<tr> <td> $lastname </td> <td>$firstname</td> <td>$Address</td> <td>$City</td> <td>$Age</td> </tr>";
             }
             } catch (Exception $ex) {
             echo "$ex";
             }
+
+            try {
+                $statement = $db->prepare('Select * FROM Orders ORDER BY OrderID');
+                $statement->execute();
+                while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+                    $OrderID = $row['OrderID'];
+                    $UserID = $row['UserID'];
+                    echo "<tr> <td> $OrderID </td> <td>$UserID</td> </tr>";
+                }
+                } catch (Exception $ex) {
+                echo "$ex";
+                } 
+
+                try {
+                    $statement = $db->prepare('Select * FROM Products ORDER BY ProductID');
+                    $statement->execute();
+                    while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+                        $ProductID = $row['ProductID'];
+                        $Productname = $row['Productname'];
+                        $ProductPrice = $row['ProductPrice'];
+                        $ProductDescription = $row['ProductDescription'];
+                        echo "<tr> <td> $ProductID </td> <td>$Productname</td> <td>$ProductPrice</td> <td>$ProductDescription</td> </tr>";
+                    }
+                    } catch (Exception $ex) {
+                    echo "$ex";
+                    }
     ?>
     </table>
 </body>
