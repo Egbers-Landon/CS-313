@@ -21,7 +21,7 @@
         </tr>
     <?php
         try {
-            $statement = $db->prepare('Select * FROM users ORDERBY lastname');
+            $statement = $db->prepare('Select * FROM Users ORDER BY lastname');
             $statement->execute();
             while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
                 $lastname = $row['lastname'];
