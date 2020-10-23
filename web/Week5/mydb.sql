@@ -38,3 +38,7 @@ VALUES ('Egbers', 'Landon', '4321myhouseln', 'Clifton', '24');
 INSERT INTO Users
 (LastName, FirstName, Addresss, City, Age)
 VALUES ('Smith', 'Joseph', '1234myhouseln', 'Clifton', '23');
+
+INSERT INTO Products
+(ProductName, ProductPrice, ProductDescription)
+VALUES ('Xbox1', '19.99', 'A pretty good gaming console');
