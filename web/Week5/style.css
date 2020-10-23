@@ -2,3 +2,8 @@ img {
     width: 100px;
     height: 100px;
 }
+
+.align {
+    justify-content: space-between;
+    display: flex;
+}
