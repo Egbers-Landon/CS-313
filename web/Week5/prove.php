@@ -27,10 +27,10 @@
             while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
                 $lastname = $row['lastname'];
                 $firstname = $row['firstname'];
-                $address = $row['address'];
+                $addresss = $row['address'];
                 $city = $row['city'];
                 $age = $row['age'];
-                echo "<tr> <td> $lastname </td> <td>$firstname</td> <td>$Address</td> <td>$City</td> <td>$Age</td> </tr>";
+                echo "<tr> <td> $lastname </td> <td>$firstname</td> <td>$Addresss</td> <td>$City</td> <td>$Age</td> </tr>";
             }
             } catch (Exception $ex) {
             echo "$ex";

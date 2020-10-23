@@ -3,7 +3,7 @@ CREATE TABLE Users (
     UserID serial NOT NULL PRIMARY KEY,
     LastName  varchar(255) NOT NULL,
     FirstName  varchar(255) NOT NULL,
-    Address varchar(255),
+    Addresss varchar(255),
     City varchar(255),
     Age int
 );
@@ -32,9 +32,9 @@ CREATE TABLE Link (
 
 
 INSERT INTO Users
-(LastName, FirstName, Address, City, Age)
+(LastName, FirstName, Addresss, City, Age)
 VALUES ('Egbers', 'Landon', '4321myhouseln', 'Clifton', '24');
 
 INSERT INTO Users
-(LastName, FirstName, Address, City, Age)
+(LastName, FirstName, Addresss, City, Age)
 VALUES ('Smith', 'Joseph', '1234myhouseln', 'Clifton', '23');
