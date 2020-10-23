@@ -12,7 +12,7 @@
     <title>Document</title>
 </head>
 <body>
-    <table>
+    <table class="table table-striped">
         <tr>
             <th>Last Name</th>
             <th>First Name</th>
