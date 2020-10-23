@@ -1,8 +1,16 @@
+<?php
+    require "dbconnect.php";
+        $db = get_db();
+?>
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style3.css">
-    </head>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
     <body>
         <h1>Checking Out</h1>
         <p><button style="float:right;" onclick="document.location='https://salty-lake-55999.herokuapp.com/Week5/cart.php'">View Cart</button></p><br>
