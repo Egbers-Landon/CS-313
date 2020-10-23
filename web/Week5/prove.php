@@ -27,7 +27,7 @@
             while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
                 $lastname = $row['lastname'];
                 $firstname = $row['firstname'];
-                $addresss = $row['address'];
+                $addresss = $row['addresss'];
                 $city = $row['city'];
                 $age = $row['age'];
                 echo "<tr> <td> $lastname </td> <td>$firstname</td> <td>$addresss</td> <td>$city</td> <td>$age</td> </tr>";
