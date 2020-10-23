@@ -30,7 +30,7 @@
                 $addresss = $row['address'];
                 $city = $row['city'];
                 $age = $row['age'];
-                echo "<tr> <td> $lastname </td> <td>$firstname</td> <td>$Addresss</td> <td>$City</td> <td>$Age</td> </tr>";
+                echo "<tr> <td> $lastname </td> <td>$firstname</td> <td>$addresss</td> <td>$city</td> <td>$age</td> </tr>";
             }
             } catch (Exception $ex) {
             echo "$ex";
