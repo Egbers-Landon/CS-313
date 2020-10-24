@@ -71,13 +71,13 @@ body {
   }
   
   .close:hover {
-    background-color: #f44336;
+    background-color:lightskyblue;
     color: white;
   }
   
   /* Style the header */
   .header {
-    background-color: #f44336;
+    background-color:lightskyblue;
     padding: 30px 40px;
     color: white;
     text-align: center;
@@ -106,7 +106,7 @@ body {
     padding: 10px;
     width: 25%;
     background: #d9d9d9;
-    color: #555;
+    color: rgb(0, 0, 0);
     float: left;
     text-align: center;
     font-size: 16px;
