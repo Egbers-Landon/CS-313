@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Confirmation Page</title>
 </head>
 <body>
 <h1> Does the information below look correct?</h1>
+<form action="End.php" method="post">
     <table class="table table-striped">
         <tr>
             <th>Last Name</th>
@@ -80,5 +81,7 @@
                     }
     ?>
     </table>
+    <button type="submit" value="Yes">
+
 </body>
 </html>
