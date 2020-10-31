@@ -81,7 +81,7 @@
                     }
     ?>
     </table>
-    <button type="submit" value="Yes">
+    <button type="submit">Yes</button>
 
 </body>
 </html>
