@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <title>Template</title>
+        <title>Purchase Complete</title>
     </head>
     <body>
         <h1>Thank you.  Your order has been shipped!</h1>
