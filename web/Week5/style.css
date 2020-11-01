@@ -8,7 +8,7 @@ img {
     display: flex;
 }
 
-head {
+h1 {
     background-color:lightskyblue;
     padding: 30px 60px;
     color: white;
