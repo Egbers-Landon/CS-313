@@ -29,7 +29,7 @@
             <label for="age">Age:</label>
             <input type="text" id="age" name="age"><br>
             
-            <input class="btn btn-primary" type="submit" value="Submit">
+            <input type="submit" value="Submit">
         </form>
 
     </body>
