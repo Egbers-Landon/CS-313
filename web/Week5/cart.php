@@ -14,7 +14,7 @@
 </head>
     <body>
     <h1>Here are the items you have added to your cart</h1>
-    <p><button style="float:right;" onclick="document.location='https://salty-lake-55999.herokuapp.com/Week5/checkout.php'">Checkout</button></p><br>
+    <p><button style="float:right;" onclick="document.location='https://salty-lake-55999.herokuapp.com/Week5/checkout.php'">Checkout</button></p><br><br>
     <p><button style="float:right;" onclick="document.location='https://salty-lake-55999.herokuapp.com/Week5/VGS.html'">Return to Shopping</button></p><br><br>
     <table class="table table-striped">
         <tr>
