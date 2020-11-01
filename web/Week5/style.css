@@ -14,3 +14,14 @@ h1 {
     color: white;
     text-align: center;
 }
+
+h2 {
+    text-align: center;
+}
+
+button {
+    background-color:lightskyblue;
+    padding: 30px 60px;
+    color: white;
+    text-align: center;
+}
