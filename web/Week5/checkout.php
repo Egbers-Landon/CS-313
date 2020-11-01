@@ -22,7 +22,7 @@
             <input type="text" id="lastname" name="lastname"><br>
             <label for="address">Address:</label>
             <input type="text" id="address" name="address"><br>
-            <label for="city">City Code:</label>
+            <label for="city">City:</label>
             <input type="text" id="city" name="city"><br>
             <label for="age">Age:</label>
             <input type="text" id="age" name="age"><br>
