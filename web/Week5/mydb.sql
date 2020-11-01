@@ -41,4 +41,24 @@ VALUES ('Smith', 'Joseph', '1234myhouseln', 'Clifton', '23');
 
 INSERT INTO Products
 (ProductName, ProductPrice, ProductDescription)
-VALUES ('Xbox1', '19.99', 'A pretty good gaming console');
+VALUES ('Xbox1', '299.99', 'A pretty good gaming console');
+
+INSERT INTO Products
+(ProductName, ProductPrice, ProductDescription)
+VALUES ('PS4', '299.99', 'Another pretty good gaming console');
+
+INSERT INTO Products
+(ProductName, ProductPrice, ProductDescription)
+VALUES ('Oculus Quest', '299.99', 'A unique gaming console');
+
+INSERT INTO Products
+(ProductName, ProductPrice, ProductDescription)
+VALUES ('Nintendo Switch', '299.99', 'A small, but good gaming console');
+
+INSERT INTO Products
+(ProductName, ProductPrice, ProductDescription)
+VALUES ('Nintendo 64', '59.99', 'An older gaming console.  Great for playing the classics!');
+
+INSERT INTO Products
+(ProductName, ProductPrice, ProductDescription)
+VALUES ('Nintendo DSI', '29.99', 'A portable gaming console.  These are a little older, and we have two in stock.');
