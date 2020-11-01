@@ -7,3 +7,10 @@ img {
     justify-content: space-between;
     display: flex;
 }
+
+head {
+    background-color:lightskyblue;
+    padding: 30px 60px;
+    color: white;
+    text-align: center;
+}
