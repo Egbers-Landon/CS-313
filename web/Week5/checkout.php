@@ -16,14 +16,16 @@
         <p><button style="float:right;" onclick="document.location='https://salty-lake-55999.herokuapp.com/Week5/cart.php'">View Cart</button></p><br>
         <p><button style="float:right;" onclick="document.location='https://salty-lake-55999.herokuapp.com/Week5/VGS.html'">Return to Shopping</button></p>
         <form action="Confirm.php" method="post">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname"><br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname"><br>
             <label for="address">Address:</label>
             <input type="text" id="address" name="address"><br>
-            <label for="city">City:</label>
+            <label for="city">City Code:</label>
             <input type="text" id="city" name="city"><br>
-            <label for="state">State:</label>
-            <input type="text" id="state" name="state"><br>
-            <label for="zip">Zip Code:</label>
-            <input type="text" id="zip" name="zip"><br>
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age"><br>
             
             <input type="submit" value="Submit">
         </form>
