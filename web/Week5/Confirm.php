@@ -82,9 +82,9 @@
                     }
     ?>
     </table>
-    <button type="submit">Yes</button>
-    <p><button onclick="document.location='https://salty-lake-55999.herokuapp.com/Week5/checkout.php'">No</button></p>
+    <button type="submit">Yes</button><br>
 </form>
+<p><button onclick="document.location='https://salty-lake-55999.herokuapp.com/Week5/checkout.php'">No</button></p>
 
 </body>
 </html>
