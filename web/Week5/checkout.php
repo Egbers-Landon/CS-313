@@ -14,8 +14,8 @@
 </head>
     <body>
         <h1>Checking Out</h1>
-        <p><button style="float:right;" onclick="document.location='https://salty-lake-55999.herokuapp.com/Week5/cart.php'">View Cart</button></p><br>
-        <p><button style="float:right;" onclick="document.location='https://salty-lake-55999.herokuapp.com/Week5/VGS.html'">Return to Shopping</button></p>
+        <p><button class="btn btn-primary" style="float:right;" onclick="document.location='https://salty-lake-55999.herokuapp.com/Week5/cart.php'">View Cart</button></p><br>
+        <p><button class="btn btn-primary" style="float:right;" onclick="document.location='https://salty-lake-55999.herokuapp.com/Week5/VGS.html'">Return to Shopping</button></p>
         <form action="Confirm.php" method="post">
             <label for="firstname">First Name:</label>
             <input type="text" id="firstname" name="firstname"><br>
@@ -28,7 +28,7 @@
             <label for="age">Age:</label>
             <input type="text" id="age" name="age"><br>
             
-            <input type="submit" value="Submit">
+            <input class="btn btn-primary" type="submit" value="Submit">
         </form>
 
     </body>
