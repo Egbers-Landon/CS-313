@@ -30,3 +30,7 @@ h2 {
 body {
     background-color: lightsteelblue;
 }
+
+p {
+    text-align: center;
+}
