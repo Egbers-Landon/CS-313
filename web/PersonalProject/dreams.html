@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="ppstyle.css">
+        <link rel="stylesheet" href="ppstyles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Template</title>
-        <script src="ppscript.js"></script>
     </head>
     <body>
         <h1>Landon Egbers</h1>
@@ -17,5 +17,17 @@
             <a href="https://salty-lake-55999.herokuapp.com/PersonalProject/recreation.html">Recreation</a>
             <a href="https://salty-lake-55999.herokuapp.com/PersonalProject/dreams.html">Dreams</a>
         </div>
+        <p>This is a list where I have recorded some things that I have done, and things that I want to do in the future.  Feel free to add your dreams to this list, and cross them out once you've completed them!</p><br>
+        <div id="myDIV" class="header">
+            <h2>To Do List</h2>
+            <h3>What would you like to add?</h3>
+            <input type="text" id="myInput" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+          </div>
+          
+          <ul id="myUL">
+          </ul>
+          
+          <script src="ppscript.js"></script>
     </body>
 </html>
