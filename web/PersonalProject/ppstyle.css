@@ -56,3 +56,9 @@ img {
     padding: 10px;
     border: 1px solid black;
 }
+
+.choices {
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
