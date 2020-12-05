@@ -108,3 +108,12 @@ body {
   .addBtn:hover {
     background-color: #bbb;
   }
+
+  .menu {
+    background-color: lightskyblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    display: flex;
+}
