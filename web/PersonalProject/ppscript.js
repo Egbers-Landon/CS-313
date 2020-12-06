@@ -65,3 +65,12 @@ function drop(ev) {
   var data = ev.dataTransfer.getData("text");
   ev.target.appendChild(document.getElementById(data));
 }
+
+function showText() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "Hello") {
+    x.innerHTML = "Swapped text!";
+  } else {
+    x.innerHTML = "Hello";
+  }
+}
