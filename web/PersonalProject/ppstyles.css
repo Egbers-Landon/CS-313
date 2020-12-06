@@ -13,6 +13,7 @@ h3 {
 body {
     margin: 0;
     min-width: 250px;
+    background-color: lightsteelblue;
   }
 
   * {
