@@ -60,6 +60,6 @@ img {
     text-align: center;
     justify-content: space-between;
     display: flex;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
