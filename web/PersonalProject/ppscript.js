@@ -68,9 +68,9 @@ function drop(ev) {
 
 function showText() {
   var x = document.getElementById("myDIV");
-  if (x.innerHTML === "Hello") {
+  if (x.innerHTML === "") {
     x.innerHTML = "Swapped text!";
   } else {
-    x.innerHTML = "Hello";
+    x.innerHTML = "";
   }
 }
