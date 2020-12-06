@@ -69,7 +69,7 @@ function drop(ev) {
 function showText() {
   var x = document.getElementById("myDIV");
   if (x.innerHTML === "") {
-    x.innerHTML = "Swapped text!";
+    x.innerHTML = "In order from left to right: Presley, Landon, Lori, Chase, Lindsay, Fred, Carter";
   } else {
     x.innerHTML = "";
   }
